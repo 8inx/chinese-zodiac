@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ChineseZodiac</string>
+    <string name="bg_image_description">bg_image</string>
+    <string name="get_chinese_zodiac">Get Chinese Zodiac</string>
+    <string name="my_chinese_zodiac">My Chinese Zodiac</string>
+
+    <string name="placeholder_date">Jan 1, 2023</string>
+
+
+    <string name="did_you_know">Did you know?</string>
+    <string name="trivia_item_1">The Chinese Zodiac is based on a 12-year cycle that corresponds to the 12-year orbit of Jupiter, the largest planet in our solar system.</string>
+    <string name="trivia_item_2">The Chinese Zodiac is also known as Sheng Xiao or the "birth year animal" in Chinese.</string>
+    <string name="trivia_item_3">The 12 animals of the Chinese Zodiac are: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, and Pig.</string>
+    <string name="trivia_item_4">The Chinese Zodiac is deeply rooted in Chinese astrology and has been used for thousands of years to guide people in matters of love, career, and health.</string>
+    <string name="trivia_item_5">The Chinese Zodiac is celebrated during the Lunar New Year, which typically falls between late January and mid-February each year.</string>
+    <string name="trivia_item_6">Each animal sign is associated with a different set of lucky numbers, colors, and directions, which are believed to bring good fortune and ward off bad luck.</string>
+    <string name="placeholder_did_you_know_item">The Chinese Zodiac is based on a 12-year cycle that corresponds to the 12-year orbit of Jupiter, the largest planet in our solar system.</string>
+
+    <string name="placeholder_rabbit">RABBIT</string>
+
+    <string name="birth_years">Birth Years</string>
+    <string name="placeholder_birth_years">1939, 1951, 1963, 1975, 1987, 1999, 2011, 2023</string>
+
+    <string name="personality_traits">Personality Traits</string>
+    <string name="placeholder_personality_traits">Kind, sensitive, artistic, romantic, judgmental, timid, refined</string>
+
+    <string name="element">Element</string>
+    <string name="placeholder_element">Metal</string>
+
+
+    <string name="personality_traits_rat">Ambitious, charming, talkative, resourceful, private, frugal, critical.</string>
+    <string name="personality_traits_ox">Diligent, gentle, hardworking, reliable, patient, materialistic, stubborn</string>
+    <string name="personality_traits_tiger">Confident, brave, magnetic, idealistic, thrill-seeking, arrogant, selfish.</string>
+    <string name="personality_traits_rabbit">Kind, sensitive, artistic, romantic, judgmental, timid, refined.</string>
+    <string name="personality_traits_dragon">Outspoken, energetic, generous, intelligent, perfectionistic, egocentric, impatient.</string>
+    <string name="personality_traits_snake">Clever, curious, alluring, wise, anxious, calculating, jealous.</string>
+    <string name="personality_traits_horse">Amusing, enthusiastic, independent, persuasive, irresponsible, moody, opportunistic.</string>
+    <string name="personality_traits_goat">Easygoing, empathetic, creative, cheerful, disorganized, impulsive lazy.</string>
+    <string name="personality_traits_monkey">Entertaining, intelligent, optimistic, sociable, fickle, secretive, unpredictable.</string>
+    <string name="personality_traits_rooster">Adventurous, charitable, funny, loyal, argumentative, boastful, self-involved.</string>
+    <string name="personality_traits_dog">Helpful, honest, trustworthy, unselfish, pessimistic, anxious, timid</string>
+    <string name="personality_traits_pig">Caring, generous, smart, outgoing, fearful, impatient, materialistic.</string>
+
+</resources>

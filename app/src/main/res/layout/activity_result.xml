@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/bg_image_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/fieldLayout"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="80dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imagePortal"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/portal" />
+
+                <ImageView
+                    android:id="@+id/imageZodiacAnimal"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/zodiac_rabbit" />
+
+                <ImageView
+                    android:id="@+id/imageCloud1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/imagePortal"
+                    android:layout_alignTop="@id/imagePortal"
+                    android:layout_marginLeft="-40dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/cloud1" />
+
+                <ImageView
+                    android:id="@+id/imageCloud2"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imagePortal"
+                    android:layout_alignBottom="@id/imagePortal"
+                    android:layout_marginLeft="-40dp"
+                    android:layout_marginBottom="70dp"
+                    android:src="@drawable/cloud1" />
+
+                <ImageView
+                    android:id="@+id/imageCloud3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/imagePortal"
+                    android:layout_alignBottom="@id/imagePortal"
+                    android:layout_marginRight="-20dp"
+                    android:layout_marginBottom="40dp"
+                    android:src="@drawable/cloud2" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingTop="56dp"
+                android:paddingBottom="48dp"
+                android:orientation="vertical"
+                android:background="@drawable/gradient_overlay">
+
+                <TextView
+                    android:id="@+id/textViewZodiac"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/gold"
+                    android:textSize="44sp"
+                    android:fontFamily="@font/gof3"
+                    android:text="@string/placeholder_rabbit"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/gold"
+                    android:textSize="20dp"
+                    android:letterSpacing="0.01"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/birth_years"/>
+
+
+                <TextView
+                    android:id="@+id/textViewBirthYears"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/lightGold"
+                    android:textSize="15dp"
+                    android:letterSpacing="0.01"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/placeholder_birth_years"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/gold"
+                    android:textSize="20dp"
+                    android:letterSpacing="0.01"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/personality_traits"/>
+
+
+                <TextView
+                    android:id="@+id/textViewPersonalityTraits"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/lightGold"
+                    android:textSize="15dp"
+                    android:letterSpacing="0.01"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/placeholder_personality_traits"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/gold"
+                    android:textSize="20dp"
+                    android:letterSpacing="0.01"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/element"/>
+
+
+                <TextView
+                    android:id="@+id/textViewElement"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/lightGold"
+                    android:textSize="15dp"
+                    android:letterSpacing="0.01"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/placeholder_element"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
